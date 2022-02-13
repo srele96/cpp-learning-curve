@@ -50,3 +50,21 @@ int main (int argc, char* argv[])
     return 0; 
 }
 ```
+
+## Learning on mistakes - Adding library in CLion project
+
+After understanding how libraries work in C++ I realized I made a mistake, the steps I had to do were as follows:
+
+Prerequisites needed for me were to have:
+
+- Make
+
+I learned that to run `make` command i had to do it from MSYS2 MiNGW shell.
+
+1. Download library source code
+2. Place library source code to my project
+3. Open shell, enter library directory, follow install instructions
+4. Link `*.a` output of library in CMake - Because I use CLion
+5. Now I can use library
+
+The chaos from yesterday is gone. Setting up library and cleaning up mess from yesterday was quick.
