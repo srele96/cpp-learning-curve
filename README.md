@@ -4,6 +4,10 @@
 
 This repository will document my C++ learning journey. It will also serve as document to look back and see how far I have come.
 
+## Repository I'm working on
+
+You can find source code of repository i'm working on here [sk-cpp-research](https://github.com/srele96/sk-cpp-research).
+
 ## Adding library in CLion project
 
 Download and build library, make sure you know where .dll will be.
