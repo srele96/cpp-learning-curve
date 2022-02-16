@@ -68,3 +68,15 @@ I learned that to run `make` command i had to do it from MSYS2 MiNGW shell.
 5. Now I can use library
 
 The chaos from yesterday is gone. Setting up library and cleaning up mess from yesterday was quick.
+
+## Talked with a friend about c++ libraries
+
+Before figuring out how to add c++ library on my own, I asked a friend.
+
+A few days later I talked to him about my experience, how I realized that first I need to build a library, then link it. Also I told him it would be problem if I had 10 libraries, because I would need to build each of them individually.
+
+He mentioned package manager can help with that, but that package managers are often configured on company or project level.
+
+Another thing he mentioned was, CMake is pretty much standard and he was surprised this library didn't support CMake.
+
+I have to learn about this, but later.
